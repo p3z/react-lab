@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import NavBar from './components/NavBar';
 import UserInterface from './components/UserInterface';
 
 function App() {
   return (
-    <div >
-      <NavBar></NavBar>
+    <div className = "container d-flex justify-content-center">
+      
       <UserInterface></UserInterface>
    </div>
     

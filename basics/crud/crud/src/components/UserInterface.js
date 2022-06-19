@@ -1,11 +1,18 @@
 import './UserInterface.css';
+import CrudForm from './CrudForm';
 
 function UserInterface() {
   return (
-    <div className="card" >
+    <div className="card " >
+
+      <CrudForm></CrudForm>
+
+      
 
       <ul className="list-group list-group-flush">
-        <li className="list-group-item">An item</li>
+      
+
+        {/* Generated these from the db file when working */}
         <li className="list-group-item">A second item</li>
         <li className="list-group-item">A third item</li>
       </ul>
@@ -13,6 +20,8 @@ function UserInterface() {
         Card footer
       </div>
     </div>
+
+    
   );
 }
 

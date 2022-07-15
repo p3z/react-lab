@@ -2,7 +2,7 @@ import './AboutSection.css';
 
 function AboutSection() {
   return (    
-      <section className = "about-section">
+      <section className = "about-section page-section">
 
          <div className = "about-section__content-container">
 

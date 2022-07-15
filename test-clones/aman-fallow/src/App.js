@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
+import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import AboutSection from './components/AboutSection';
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Hero></Hero>  
+      <Navbar></Navbar>
+      <Hero></Hero>
+      <AboutSection></AboutSection>
     </div>
   );
 }

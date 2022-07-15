@@ -1,4 +1,4 @@
-.app-header{
+.app-navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,18 +7,18 @@
     height: 100px;
 }
 
-.app-header__brand-name{
+.app-navbar__brand-name{
     display: inline-block;
     margin: 30px;
 }
 
-.app-header__menu-list{
+.app-navbar__menu-list{
     list-style: none;
     display: flex;
     align-items: center;
 }
 
-.app-header__menu-list li{
+.app-navbar__menu-list li{
     text-transform: uppercase;
     margin: 30px;
 }
